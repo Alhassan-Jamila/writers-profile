@@ -3,7 +3,7 @@ import React from 'react'
 function ProfileCard({writer}) {
   return (
     <div className='card'>
-    <img src={'images/${writer.avatar}.png'}
+    <img src={`images/${writer.avatar}.png`}
     height="300px" width="300px" alt={writer.img}/>
 
     <div className='textGroup'>
@@ -18,4 +18,4 @@ function ProfileCard({writer}) {
   )
 }
 
-export default ProfileCard
+export default ProfileCard;
